@@ -4,6 +4,9 @@ import logging
 import random
 import uuid
 import os
+import utility
+
+utility.configure_logger()
 
 
 def lambda_handler(event, _context):
